@@ -61,7 +61,6 @@
     wakeup_scan: wakeup_scan {
         compatible = "zmk,gpio-key-wakeup-trigger";
         trigger = <&soft_off_gpio_key>;
-        auto-enable;
         wakeup-source;
         extra-gpios = <&xiao_d 0 GPIO_ACTIVE_HIGH>;
     };

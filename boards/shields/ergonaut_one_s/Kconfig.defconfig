@@ -4,7 +4,7 @@
 if SHIELD_ERGONAUT_ONE_S_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "##{KEYBOARD_NAME}##"
+	default "##{KBN}##"
 
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
